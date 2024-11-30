@@ -1,8 +1,8 @@
-:wResources:
+Resources:
   GlueJob:
     Type: AWS::Glue::Job
     Properties:
-      Name: MyGlueJob  
+      Name: MyGlueJob1 
       Role: !GetAtt GlueServiceRole.Arn
       Command:
         Name: glueetl
